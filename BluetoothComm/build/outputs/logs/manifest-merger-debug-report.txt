@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:9:5-73
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.INTERNET
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:11:22-73
+application
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:13:5-36:19
+	android:supportsRtl
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:16:9-41
+	android:icon
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:15:9-38
+	android:allowBackup
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:18:9-40
+activity#com.ronoid.bluetoothcomm.BluetoothComm
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:19:9-29:20
+	android:label
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:20:13-45
+	android:configChanges
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:21:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:27:27-74
+activity#com.ronoid.bluetoothcomm.ScanDeviceActivity
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:30:9-33:20
+	android:label
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:31:13-50
+	android:theme
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:32:13-70
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:30:19-53
+activity#com.ronoid.bluetoothcomm.AboutActivity
+ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:34:9-35:88
+	android:theme
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:35:13-76
+	android:name
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:34:19-48
+uses-sdk
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		ADDED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+		INJECTED from E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml

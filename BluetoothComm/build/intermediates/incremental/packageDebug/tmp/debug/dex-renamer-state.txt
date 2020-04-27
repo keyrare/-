@@ -1,0 +1,4 @@
+#Thu Apr 23 22:47:59 CST 2020
+base.0=E\:\\ITRoad\\android\\keyrare_app\\BluetoothComm\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BluetoothComm/BluetoothComm.iml" filepath="$PROJECT_DIR$/BluetoothComm/BluetoothComm.iml" group="keyrare_app/BluetoothComm" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android-keyrare_app.iml" filepath="$PROJECT_DIR$/.idea/modules/android-keyrare_app.iml" group="keyrare_app" />
+      <module fileurl="file://$PROJECT_DIR$/keyrare_app.iml" filepath="$PROJECT_DIR$/keyrare_app.iml" group="keyrare_app" />
+    </modules>
+  </component>
+</project>

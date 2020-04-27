@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ronoid.bluetoothcomm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:8:5-67
+11-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:8:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:9:5-73
+12-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:9:22-71
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:10:5-66
+13-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:11:5-75
+14-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:11:22-73
+15
+16    <application
+16-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:13:5-36:19
+17        android:allowBackup="true"
+17-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:14:9-35
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/icon"
+20-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:15:9-38
+21        android:label="@string/app_name"
+21-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:16:9-41
+22        android:supportsRtl="true"
+22-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:17:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:18:9-40
+25        <activity
+25-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:19:9-29:20
+26            android:name="com.ronoid.bluetoothcomm.BluetoothComm"
+26-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:21:13-42
+27            android:configChanges="orientation|keyboardHidden"
+27-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:22:13-63
+28            android:label="@string/app_name" >
+28-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:20:13-45
+29
+30            <!-- android:screenOrientation="portrait" -->
+31            <intent-filter>
+31-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:25:17-69
+32-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:27:17-77
+34-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:30:9-33:20
+38            android:name="com.ronoid.bluetoothcomm.ScanDeviceActivity"
+38-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:30:19-53
+39            android:label="@string/select_device"
+39-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:31:13-50
+40            android:theme="@android:style/Theme.DeviceDefault.Dialog" >
+40-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:32:13-70
+41        </activity>
+42        <activity
+42-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:34:9-35:88
+43            android:name="com.ronoid.bluetoothcomm.AboutActivity"
+43-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:34:19-48
+44            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+44-->E:\ITRoad\android\keyrare_app\BluetoothComm\src\main\AndroidManifest.xml:35:13-76
+45    </application>
+46
+47</manifest>

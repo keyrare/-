@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智能小车控制软件</string>
+
+    <string name="paried_title">已配对设备</string>
+    <string name="nodevice">未连接设备</string>
+    <string name="disconnect">断开连接</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">未连接设备</string>
+    <!-- 菜单 -->
+    <string name="scan">搜索</string>
+    <string name="discoverable">设备可检测</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <!-- 搜索界面 -->
+    <string name="noNewDevice">没有发现新设备</string>
+    <string name="noPairedDevice">没有配对的设备</string>
+    <string name="scanning">搜索中...</string>
+    <string name="select_device">选择设备配对</string>
+    <string name="pairedDevice">已配对的设备</string>
+    <string name="newDevice">新搜索的设备</string>
+    <string name="scanNew">搜索新设备</string>
+
+    <string name="forWard">前进</string>
+    <string name="towardsRight">右转</string>
+    <string name="towardsLeft">左转</string>
+    <string name="backWards">后退</string>
+    <string name="towardsStop">停止</string>
+
+    <!-- about菜单 -->
+    <string name="app_about_title">关于智能小车控制软件：</string>
+    <string name="app_about">
+        基于蓝牙串口调试程序，进行更改重新编写，实现与小车连接，控制小车的前进、后退、左转、右转、停止。
+    </string>
+
+</resources>
